@@ -1,0 +1,17 @@
+{
+	"name": "opener_cli",
+	"version": "1.0.0",
+	"description": "opening orojects",
+	"main": "index.js",
+	"type": "module",
+	"bin": {
+		"opener": "./index.js",
+		"o-": "./index.js"
+	},
+	"author": "milad",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^5.6.0",
+		"inquirer": "^12.9.4"
+	}
+}

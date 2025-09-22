@@ -25,10 +25,8 @@ Commands:
   1) o-:
       Description: o- to open a projec .
       Example: o- project-name (The project must have already been added to the opener tool by "opener aap" command)
-
-Options:
-  -h
-    Show this help message and exit.
+  2) o- -h:
+      Description: Show this help message and exit.
 
 Notes:
   - Your project folders are searched in the Home Path.

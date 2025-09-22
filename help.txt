@@ -1,0 +1,34 @@
+opener_cli – Command Line Tool
+
+Usage:
+  opener <sub-command>
+  o- <sub-command>
+
+Commands:
+  1) opener aap
+      Description: the "aap" subcommand is shortened to (Add A Project).
+
+  2) opener dop
+      Description: the "dop" subcommand is shortened to (Delete One Project).
+
+  3) opener dap
+      Description: the "dap" subcommand is shortened to (Delete All Projects).
+      
+  4) opener lap
+      Description: the "lap" subcommand is shortened to (List All Projects).
+  
+  5) opener un
+      Description: to completely remove the opener_cli tool .
+
+  short commands:
+
+  1) o-:
+      Description: o- to open a projec .
+      Example: o- project-name (The project must have already been added to the opener tool by "opener aap" command)
+
+Options:
+  -h
+    Show this help message and exit.
+
+Notes:
+  - Your project folders are searched in the Home Path.

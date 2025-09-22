@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 import path from "path";
+import chalk from "chalk";
 
 import { Aap } from "./aap.js";
 import { Dop } from "./dop.js";
 import { Dap } from "./dap.js";
 import { Lap } from "./lap.js";
 import { Quick_Command } from "./quick.js";
-import chalk from "chalk";
 import { Un } from "./un.js";
+import { _h } from "./help.js";
 
 console.clear();
 
@@ -38,7 +39,11 @@ if (argv === "opener") {
 if (argv === "o-") {
 	const argv = path.basename(process.argv[2] || "");
 	if (argv) {
-		Quick_Command(argv);
+		if (argv === "-h") {
+			_h();
+		} else {
+			Quick_Command(argv);
+		}
 	} else {
 		console.log(`please enter a valid sub-command or enter ${chalk.yellow("opener help")}}`);
 		process.exit(1);

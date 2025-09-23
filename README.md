@@ -1,6 +1,6 @@
 # opener_cli (for linux)
 
-## A simple tool for managing dev-porjects by code-editors .
+## A simple tool for managing dev-porjects by code-editors (Written with node.js).
 
 ### How does it work
 

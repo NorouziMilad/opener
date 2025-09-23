@@ -27,11 +27,11 @@ if (argv === "opener") {
 		} else if (argv === "un") {
 			Un();
 		} else {
-			console.log(`${chalk.red(argv)} isn't valid, please enter ${chalk.yellow("opener help")} `);
+			console.log(`${chalk.red(argv)} isn't valid, please enter ${chalk.yellow("o- -h")}`);
 			process.exit(1);
 		}
 	} else {
-		console.log(`please enter a valid sub-command or enter ${chalk.yellow("opener help")}}`);
+		console.log(`please enter a valid sub-command or enter ${chalk.yellow("o- -h")}}`);
 		process.exit(1);
 	}
 }

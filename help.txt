@@ -23,7 +23,7 @@ Commands:
   short commands:
 
   1) o-:
-      Description: o- to open a projec .
+      Description: o- to quick open a projec .
       Example: o- project-name (The project must have already been added to the opener tool by "opener aap" command)
   2) o- -h:
       Description: Show this help message and exit.
